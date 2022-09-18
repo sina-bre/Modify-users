@@ -1,0 +1,141 @@
+.users-container {
+  background-color: #fff;
+  width: 344px;
+  height: 24rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.users-container.dark {
+  background-color: #1e1e1e;
+}
+
+.users-head {
+  color: #31507d;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem 0;
+  margin: 0 0 1rem 0;
+}
+
+.search-user-div {
+  position: relative;
+}
+
+.search-user-icon {
+  position: absolute;
+  top: 0.9rem;
+  left: 0.7rem;
+  color: #58759d79;
+}
+.search-user-icon.dark {
+  color: #363636;
+}
+
+.search-user-input {
+  width: 80%;
+  height: 3.5rem;
+  border: 2px solid #f1f6ff;
+  padding: 0 1rem 0 3rem;
+  border-radius: 0.7rem;
+  font-size: 0.9rem;
+  color: #58759d;
+  font-family: "Poppins", sans-serif;
+}
+.search-user-input.dark {
+  border: 2px solid #363636;
+  color: #b3b3b3;
+  background-color: #1e1e1e;
+}
+
+.search-user-input:focus {
+  outline: 0;
+  border-color: #267fff;
+}
+.search-user-input::placeholder {
+  color: #58759d63;
+}
+.search-user-input.dark::placeholder {
+  color: #b3b3b379;
+}
+
+.user-details-container {
+  height: 60%;
+  border: 2px solid #f1f6ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  overflow-y: scroll;
+  border-radius: 0.7rem;
+}
+.user-details-container.dark {
+  border: 2px solid #363636;
+}
+
+.user-details-container::-webkit-scrollbar-thumb {
+  border-radius: 0 8px 8px 0;
+  background: #bdd8ff;
+}
+.user-details-container.dark::-webkit-scrollbar-thumb {
+  background: #313841;
+}
+.user-details-container::-webkit-scrollbar-track {
+  border-radius: 0 8px 8px 0;
+  background: #bdd8ff3f;
+}
+.user-details-container.dark::-webkit-scrollbar-track {
+  background: #202327;
+}
+.user-details-container::-webkit-scrollbar {
+  width: 10px;
+}
+.user-details-item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.user-details-item {
+  display: flex;
+  align-items: center;
+}
+.user-details-icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-details-icon {
+  color: #267fff;
+}
+.user-details-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-details-div p {
+  width: 180px;
+  height: 24px;
+  color: #7b7e84;
+  margin: 0 0 0 0.5rem;
+  overflow: hidden;
+}
+.user-details-div.dark p {
+  color: #b3b3b3;
+}
+
+.delete-user-div {
+  display: flex;
+  align-items: center;
+}
+
+.delete-user-icon,
+.edit-user-icon {
+  color: #58759d63;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.delete-user-icon:hover {
+  color: #ff6565;
+}
+.edit-user-icon:hover {
+  color: #267fff;
+}

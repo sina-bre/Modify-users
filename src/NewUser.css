@@ -1,0 +1,99 @@
+.add-user-countainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 344px;
+  height: 24rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.add-user-countainer.dark {
+  background-color: #1e1e1e;
+}
+
+.new-user-head {
+  color: #31507d;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem 0;
+  margin: 0;
+}
+
+.new-user-haed-details {
+  color: #cad1dd;
+  font-size: 1rem;
+  font-weight: 350;
+  margin: 0;
+}
+.new-user-haed-details.dark {
+  color: #363636;
+}
+
+.new-user-input {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.new-user-input-icon {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.2rem;
+  color: #267fff;
+}
+.first-name-input,
+.last-name-input {
+  width: 80%;
+  height: 3.5rem;
+  border: 2px solid #f1f6ff;
+  padding: 0 1rem 0 3rem;
+  border-radius: 0.7rem;
+  font-size: 0.9rem;
+  color: #58759d;
+  font-family: "Poppins", sans-serif;
+}
+.first-name-input.dark,
+.last-name-input.dark {
+  border: 2px solid #363636;
+  color: #b3b3b3;
+  background-color: #1e1e1e;
+}
+
+.last-name-input.invalid,
+.first-name-input.invalid {
+  border-color: #ff2c2c;
+}
+
+.first-name-input:focus,
+.last-name-input:focus {
+  outline: 0;
+  border-color: #267fff;
+}
+
+.first-name-input::placeholder,
+.last-name-input::placeholder {
+  color: #58759d79;
+}
+
+.first-name-input.dark::placeholder,
+.last-name-input.dark::placeholder {
+  color: #b3b3b379;
+}
+
+.add-user-btn {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #267fff;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.7rem;
+}
+.add-user-btn:hover {
+  background-color: #0a70ff;
+  cursor: pointer;
+}

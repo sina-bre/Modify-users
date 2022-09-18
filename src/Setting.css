@@ -1,0 +1,110 @@
+.setting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 344px;
+  height: 24rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.setting-container.dark {
+  background-color: #1e1e1e;
+}
+
+.setting-head {
+  color: #31507d;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem 0;
+  margin: 0;
+}
+
+.setting-head-details {
+  color: #cad1dd;
+  font-size: 1rem;
+  font-weight: 350;
+  margin: 0;
+}
+.setting-head-details.dark {
+  color: #363636;
+}
+
+.theme-setting {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.theme-title-div,
+.theme-label-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.themes-label {
+  color: #7b7e84;
+  margin-right: 1rem;
+}
+.themes-label.dark {
+  color: #b3b3b3;
+}
+
+.themes-title {
+  color: #7b7e84;
+  font-weight: 500;
+  margin: 0;
+}
+.themes-title.dark {
+  color: #b3b3b3;
+}
+
+.change-header-text-div,
+.change-footer-text-div,
+.change-header-color-div,
+.change-footer-color-div {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.change-header-text-input,
+.change-footer-text-input {
+  width: 60%;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #7b7e84;
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+  border: 0;
+}
+.change-header-text-input.dark,
+.change-footer-text-input.dark {
+  color: #b3b3b3;
+  background-color: #1e1e1e;
+}
+
+.change-header-color-input.dark,
+.change-footer-color-input.dark {
+  background: #1e1e1e;
+}
+
+.change-header-text-label,
+.change-footer-text-label,
+.change-header-color-label,
+.change-footer-color-label {
+  color: #7b7e84;
+  font-weight: 500;
+  margin: 0;
+}
+.change-header-text-label.dark,
+.change-footer-text-label.dark,
+.change-header-color-label.dark,
+.change-footer-color-label.dark {
+  color: #b3b3b3;
+}

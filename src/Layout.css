@@ -1,0 +1,41 @@
+.header {
+  width: 344px;
+  height: 2rem;
+  text-align: center;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.header p {
+  width: 80%;
+  height: 50%;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #31507d;
+  font-weight: 700;
+  overflow: hidden;
+}
+.footer p {
+  width: 80%;
+  height: 50%;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #31507d;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.footer {
+  width: 344px;
+  height: 2rem;
+  text-align: center;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+}
